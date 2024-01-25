@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    text-align: center;
+    background-color: rgb(28, 27, 25);
+    height: 260px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#date,
+#time {
+    font-size: 2em;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.471);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+ #time {
+     margin-top: 59px;
+}
+/*
+#date{
+    color: red;
+} */
